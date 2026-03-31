@@ -3,15 +3,8 @@
     "rewrites": [
   
       {
-  
-        "source": "/:path(.*)",
-  
-        "destination": "/:path",
-  
         "response": {
-  
           "headers": {
-  
             "Access-Control-Allow-Origin": "*"
           }
   
